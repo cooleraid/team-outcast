@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Google\Cloud\Speech\SpeechClient;
 
@@ -13,7 +13,7 @@ $speech = new SpeechClient([
 ]);
 
 # The name of the audio file to transcribe
-$fileName = __DIR__ . 'quick.flac';
+$fileName ='quick.flac';
 
 # The audio file's encoding and sample rate
 $options = [
