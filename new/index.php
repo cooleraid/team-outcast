@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use Google\Cloud\Speech\SpeechClient;
 
 # Your Google Cloud Platform project ID
-$projectId = 'AIzaSyD6AgyqkMFG2sM7JbZtnjbZPYC1Vwt8TEo';
+$projectId = 'phpmyadmin-183701';
 
 # Instantiates a client
 $speech = new SpeechClient([
